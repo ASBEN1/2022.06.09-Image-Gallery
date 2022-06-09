@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 주의! 반드기 제이쿼리가 있어야 하며 사용자 자바스크립트도 있어야 한다.
+      자바스크립트 경로는 무조건 script로 젓어야 한다 CSS랑 정반대 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+    <div class="main-image">
+      <img src="./image/img01.jpg" alt="img01">
+    </div>
+    <!-- 여기서 div는 프레임으로 둔다 -->
+    <!-- 썸네일 이미지 영역 -->
+    <ul class="img-thumb">
+      <li>
+        <img src="./image/img01.jpg" alt="1">
+      </li>
+      <li>
+        <img src="./image/img02.jpg" alt="2">
+      </li>
+      <li>
+        <img src="./image/img03.jpg" alt="3">
+      </li>
+      <li>
+        <img src="./image/img04.jpg" alt="4">
+      </li>
+      <li>
+        <img src="./image/img05.jpg" alt="5">
+      </li>
+      <li>
+        <img src="./image/img06.jpg" alt="6">
+      </li>
+    </ul>
+  </div> <!-- container -->
+</body>
+</html>
